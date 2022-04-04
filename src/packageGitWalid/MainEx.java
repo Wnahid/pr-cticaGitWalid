@@ -9,10 +9,10 @@ public class MainEx {
 		int EmpleadosSeccion = tienda.EmpleadosSeccion();
 		if (EmpleadosSeccion < 10) {
 			while (EmpleadosSeccion < 10) {
-				System.out.println("Es necesario más empleados por sección en esta tienda, vamos a aumentarlos");
+				System.out.println("Es necesario mÃ¡s empleados por secciÃ³n en esta tienda, vamos a aumentarlos");
 				tienda.setEmpleados(tienda.getEmpleados() + 10);
 				EmpleadosSeccion = tienda.EmpleadosSeccion();
-				System.out.println("Ahora los empleados por sección serán: " + EmpleadosSeccion);
+				System.out.println("Ahora los empleados por secciÃ³n serÃ¡n: " + EmpleadosSeccion);
 			} 
 		}
 		
@@ -26,13 +26,13 @@ public class MainEx {
 		
 		do {
 			System.out.println("\n**********************************");
-			System.out.println("¿Qué tipo de tienda quieres crear?");
+			System.out.println("Â¿QuÃ© tipo de tienda quieres crear?");
 			System.out.println("1=Hipermercado");
 			System.out.println("2=Supermercado");	
 			System.out.println("3=CiTy");
 			opcion = datos.nextInt();
 			if (opcion > 0 && opcion < 4) {
- 			 System.out.println("¿Cuántas secciones quieres crear?");
+ 			 System.out.println("Â¿CuÃ¡ntas secciones quieres crear?");
 			 numSecciones = datos.nextInt();
 			 switch (opcion) {
 			  case 1:
@@ -53,8 +53,8 @@ public class MainEx {
 			  } //switch
 			 } //if
 			} while (opcion>0 && opcion<4);	
-		 System.out.println("Número de tiendas en el Sistema: "+Tienda.numeroTiendas);
-		 System.out.println("Fin programa.");
+		 System.out.println("NÃºmero de tiendas en el Sistema: "+Tienda.numeroTiendas);
+		 System.out.println("El programa ha finalizado");
 		 
 		 datos.close();
 	 } //main
