@@ -55,6 +55,7 @@ public class MainEx {
 			} while (opcion>0 && opcion<4);	
 		 System.out.println("Número de tiendas en el Sistema: "+Tienda.numeroTiendas);
 		 System.out.println("El programa ha finalizado");
+		 System.out.println("GitHub Walid");
 		 
 		 datos.close();
 	 } //main
